@@ -59,6 +59,9 @@
                                             <color key="baseForegroundColor" red="0.51232400020000002" green="0.2015468426" blue="0.064677273839999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color key="baseBackgroundColor" red="0.848143129" green="0.48338231939999998" blue="0.050225450249999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="lottieAnimationBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JLo-yn-8pW"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -76,6 +79,7 @@
                     </view>
                     <connections>
                         <outlet property="coreAnimationBtn" destination="scS-R7-MB3" id="hn3-Ov-Brn"/>
+                        <outlet property="coreAnimationLbl" destination="xmh-52-2Um" id="PtY-wS-YYz"/>
                         <outlet property="coreAnimationView" destination="nJ6-rd-tUL" id="YiP-va-PRR"/>
                         <outlet property="stackView" destination="YRT-YP-LTB" id="LcK-nP-MT4"/>
                     </connections>

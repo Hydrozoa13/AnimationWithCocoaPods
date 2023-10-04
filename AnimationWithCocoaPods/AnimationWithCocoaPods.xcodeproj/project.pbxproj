@@ -14,6 +14,12 @@
 		D12B05582ACD8FD700182EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12B05562ACD8FD700182EA3 /* LaunchScreen.storyboard */; };
 		D12B05672ACD93F400182EA3 /* AnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B05662ACD93F400182EA3 /* AnimationVC.swift */; };
 		D12B05692ACD995C00182EA3 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B05682ACD995C00182EA3 /* UIButtonExt.swift */; };
+		D1C7A8EC2ACDF67700989F6C /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = D1C7A8E72ACDF67700989F6C /* home.json */; };
+		D1C7A8EF2ACDF67700989F6C /* rugby-ball.json in Resources */ = {isa = PBXBuildFile; fileRef = D1C7A8EA2ACDF67700989F6C /* rugby-ball.json */; };
+		D1C7A8F02ACDF67700989F6C /* target.json in Resources */ = {isa = PBXBuildFile; fileRef = D1C7A8EB2ACDF67700989F6C /* target.json */; };
+		D1C7A8F92ACDFF1600989F6C /* cat-head.json in Resources */ = {isa = PBXBuildFile; fileRef = D1C7A8F72ACDFF1600989F6C /* cat-head.json */; };
+		D1C7A8FA2ACDFF1600989F6C /* confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = D1C7A8F82ACDFF1600989F6C /* confetti.json */; };
+		D1C7A8FC2ACE030100989F6C /* UILabelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C7A8FB2ACE030100989F6C /* UILabelExt.swift */; };
 		E2E9AF4E8D3337BCC33F2A49 /* Pods_AnimationWithCocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683569D578CDB616F6E0B1CD /* Pods_AnimationWithCocoaPods.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +36,12 @@
 		D12B05592ACD8FD700182EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D12B05662ACD93F400182EA3 /* AnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationVC.swift; sourceTree = "<group>"; };
 		D12B05682ACD995C00182EA3 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		D1C7A8E72ACDF67700989F6C /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
+		D1C7A8EA2ACDF67700989F6C /* rugby-ball.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "rugby-ball.json"; sourceTree = "<group>"; };
+		D1C7A8EB2ACDF67700989F6C /* target.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = target.json; sourceTree = "<group>"; };
+		D1C7A8F72ACDFF1600989F6C /* cat-head.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cat-head.json"; sourceTree = "<group>"; };
+		D1C7A8F82ACDFF1600989F6C /* confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = confetti.json; sourceTree = "<group>"; };
+		D1C7A8FB2ACE030100989F6C /* UILabelExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +62,6 @@
 				118316BEE29C3257BBD58C5D /* Pods-AnimationWithCocoaPods.debug.xcconfig */,
 				5E2823B0B0FF694DA099EC4E /* Pods-AnimationWithCocoaPods.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -124,6 +135,11 @@
 		D12B05622ACD934600182EA3 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				D1C7A8F72ACDFF1600989F6C /* cat-head.json */,
+				D1C7A8F82ACDFF1600989F6C /* confetti.json */,
+				D1C7A8E72ACDF67700989F6C /* home.json */,
+				D1C7A8EA2ACDF67700989F6C /* rugby-ball.json */,
+				D1C7A8EB2ACDF67700989F6C /* target.json */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -147,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				D12B05682ACD995C00182EA3 /* UIButtonExt.swift */,
+				D1C7A8FB2ACE030100989F6C /* UILabelExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -211,9 +228,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1C7A8F92ACDFF1600989F6C /* cat-head.json in Resources */,
+				D1C7A8FA2ACDFF1600989F6C /* confetti.json in Resources */,
 				D12B05582ACD8FD700182EA3 /* LaunchScreen.storyboard in Resources */,
+				D1C7A8F02ACDF67700989F6C /* target.json in Resources */,
 				D12B05552ACD8FD700182EA3 /* Assets.xcassets in Resources */,
+				D1C7A8EC2ACDF67700989F6C /* home.json in Resources */,
 				D12B05532ACD8FD600182EA3 /* Main.storyboard in Resources */,
+				D1C7A8EF2ACDF67700989F6C /* rugby-ball.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +290,7 @@
 			files = (
 				D12B05672ACD93F400182EA3 /* AnimationVC.swift in Sources */,
 				D12B054C2ACD8FD600182EA3 /* AppDelegate.swift in Sources */,
+				D1C7A8FC2ACE030100989F6C /* UILabelExt.swift in Sources */,
 				D12B054E2ACD8FD600182EA3 /* SceneDelegate.swift in Sources */,
 				D12B05692ACD995C00182EA3 /* UIButtonExt.swift in Sources */,
 			);
